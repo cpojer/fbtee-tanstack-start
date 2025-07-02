@@ -1,0 +1,16 @@
+{
+  "ja_JP": {
+    "10M4vQ": "いらっしゃいませ",
+    "1u0skA": "いらっしゃいませ",
+    "2VPV74": { "*": "{number}+" },
+    "1REuSN": { "*": "<{number}" },
+    "3uo8du": "{previous items}; {following items}",
+    "1UOVWD": "{previous items} • {following items}",
+    "4DAMgG": "{previous items}, {following items}",
+    "17bm9d": "{list of items} and {last item}",
+    "3q8AmB": "{list of items} or {last item}",
+    "4zJcb": "{previous items}; {last item}",
+    "1wKCx": "{list of items} • {last item}",
+    "3Q0iaX": "{list of items}, {last item}"
+  }
+}

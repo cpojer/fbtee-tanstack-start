@@ -1,0 +1,246 @@
+{
+  "childParentMappings": {},
+  "phrases": [
+    {
+      "hashToLeaf": {
+        "qyCCNA8h1EemGarZXqWtjg==": {
+          "desc": "Greeting",
+          "text": "Hello, World!"
+        }
+      },
+      "col_beg": 19,
+      "col_end": 51,
+      "filepath": "src/routes/index.tsx",
+      "line_beg": 26,
+      "line_end": 26,
+      "project": "",
+      "jsfbt": { "m": [], "t": { "desc": "Greeting", "text": "Hello, World!" } }
+    },
+    {
+      "hashToLeaf": {
+        "y7ytpzjv1/Y+s3HivTUHMQ==": { "desc": "Greeting", "text": "Welcome" }
+      },
+      "col_beg": 8,
+      "col_end": 42,
+      "filepath": "src/routes/index.tsx",
+      "line_beg": 31,
+      "line_end": 31,
+      "project": "",
+      "jsfbt": { "m": [], "t": { "desc": "Greeting", "text": "Welcome" } }
+    },
+    {
+      "hashToLeaf": {
+        "IYUmtYxQtGdt1MucjXrsVA==": {
+          "desc": "Label with meaning 'at least number'",
+          "text": "{number}+"
+        }
+      },
+      "col_beg": 4,
+      "col_end": 10,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 19,
+      "line_end": 24,
+      "project": "locale_data",
+      "jsfbt": {
+        "m": [{ "token": "number", "type": 2 }],
+        "t": {
+          "*": {
+            "desc": "Label with meaning 'at least number'",
+            "text": "{number}+"
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "ZIF1WhVQwt7WZJvFTEbMWw==": {
+          "desc": "Label with meaning 'less than number'",
+          "text": "<{number}"
+        }
+      },
+      "col_beg": 4,
+      "col_end": 10,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 34,
+      "line_end": 39,
+      "project": "locale_data",
+      "jsfbt": {
+        "m": [{ "token": "number", "type": 2 }],
+        "t": {
+          "*": {
+            "desc": "Label with meaning 'less than number'",
+            "text": "<{number}"
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "Oc/9PrbjfyLHS60BXceD1A==": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}; {following items}"
+        }
+      },
+      "col_beg": 10,
+      "col_end": 16,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 42,
+      "line_end": 46,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}; {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "AXXbKEUZuc0ji1IClRrOOw==": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items} • {following items}"
+        }
+      },
+      "col_beg": 10,
+      "col_end": 16,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 51,
+      "line_end": 54,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items} • {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "89ACgPMtnwlLDSeqhLBx2Q==": {
+          "desc": "A list of items of various types separated by commas, for example: \"San Francisco, London, Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}, {following items}"
+        }
+      },
+      "col_beg": 10,
+      "col_end": 16,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 59,
+      "line_end": 63,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by commas, for example: \"San Francisco, London, Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}, {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "icNetEL/crQv/PS6yhySVQ==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 and item4\"",
+          "text": "{list of items} and {last item}"
+        }
+      },
+      "col_beg": 8,
+      "col_end": 14,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 71,
+      "line_end": 75,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 and item4\"",
+          "text": "{list of items} and {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "8eSaAzrWtAqn9ktNKfkaEg==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 or item4\"",
+          "text": "{list of items} or {last item}"
+        }
+      },
+      "col_beg": 8,
+      "col_end": 14,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 80,
+      "line_end": 84,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 or item4\"",
+          "text": "{list of items} or {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "+IBI7kr/mMKdzp+3stDvkw==": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} itself contains one or more items.",
+          "text": "{previous items}; {last item}"
+        }
+      },
+      "col_beg": 12,
+      "col_end": 18,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 91,
+      "line_end": 95,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} itself contains one or more items.",
+          "text": "{previous items}; {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "55IeE8c0qqtjTU0lo7q9AA==": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} contains one or more items.",
+          "text": "{list of items} • {last item}"
+        }
+      },
+      "col_beg": 12,
+      "col_end": 18,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 99,
+      "line_end": 102,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} contains one or more items.",
+          "text": "{list of items} • {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "6PRJS0QalZfvaN8CkKCUCw==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3, item4\"",
+          "text": "{list of items}, {last item}"
+        }
+      },
+      "col_beg": 12,
+      "col_end": 18,
+      "filepath": "node_modules/fbtee/lib/index.js",
+      "line_beg": 106,
+      "line_end": 110,
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3, item4\"",
+          "text": "{list of items}, {last item}"
+        }
+      }
+    }
+  ]
+}

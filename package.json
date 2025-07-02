@@ -1,0 +1,36 @@
+{
+  "name": "tanstack-start-example-basic",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build && tsc --noEmit",
+    "start": "node .output/server/index.mjs",
+    "fbtee:collect": "fbtee collect --manifest < .src_manifest.json > source_strings.json",
+    "fbtee:manifest": "fbtee manifest --src src",
+    "fbtee:translate": "fbtee translate --source-strings source_strings.json --translations translations/*.json --jenkins --output-dir src/translations/"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.124.0",
+    "@tanstack/react-router-devtools": "^1.124.0",
+    "@tanstack/react-start": "^1.124.1",
+    "fbtee": "^0.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@nkzw/babel-preset-fbtee": "^0.3.0",
+    "@types/node": "^22.5.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
