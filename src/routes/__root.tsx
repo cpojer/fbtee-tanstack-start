@@ -2,7 +2,7 @@
 /// <reference types="vite/client" />
 import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
-import { LocaleContext } from "fbtee";
+import { createLocaleContext } from "fbtee";
 import * as React from "react";
 import AvailableLanguages from "~/components/AvailableLanguages";
 import { DefaultCatchBoundary } from "~/components/DefaultCatchBoundary";
@@ -54,27 +54,25 @@ export const Route = createRootRoute({
   shellComponent: RootDocument,
 });
 
-const clientLocales = [navigator.language, ...navigator.languages];
+const LocaleContext = createLocaleContext({
+  availableLanguages: AvailableLanguages,
+  clientLocales: [navigator.language, ...navigator.languages],
+  loadLocale: async (locale: string) => {
+    let result = {};
 
-const loadLocale = async (locale: string) => {
-  let result = {};
+    if (locale === "ja_JP") {
+      result = (await import("../translations/ja_JP.json")).default.ja_JP;
+    }
 
-  if (locale === "ja_JP") {
-    result = (await import("../translations/ja_JP.json")).default.ja_JP;
-  }
+    console.log(`Loading locale: ${locale}`, JSON.stringify(result, null, 2));
 
-  console.log(`Loading locale: ${locale}`, JSON.stringify(result, null, 2));
-
-  return result;
-};
+    return result;
+  },
+});
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <LocaleContext
-      availableLanguages={AvailableLanguages}
-      clientLocales={clientLocales}
-      loadLocale={loadLocale}
-    >
+    <LocaleContext>
       <html>
         <head>
           <HeadContent />
