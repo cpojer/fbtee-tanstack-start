@@ -2,12 +2,8 @@
   "ja_JP": {
     "10M4vQ": "いらっしゃいませ",
     "1u0skA": "いらっしゃいませ",
-    "2VPV74": {
-      "*": "{number}+"
-    },
-    "1REuSN": {
-      "*": "<{number}"
-    },
+    "2VPV74": { "*": "{number}+" },
+    "1REuSN": { "*": "<{number}" },
     "3uo8du": "{previous items}; {following items}",
     "1UOVWD": "{previous items} • {following items}",
     "4DAMgG": "{previous items}, {following items}",
