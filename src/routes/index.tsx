@@ -25,11 +25,9 @@ const LocaleSwitcher = () => {
 function Home() {
   const greeting = fbt("Hello, World!", "Greeting");
 
-  console.log("Greeting key:", greeting.key);
-
   return (
-    <div className="p-2">
-      <h1 className="text-4xl">
+    <div className="p-2 bg-white">
+      <h1 className="text-4xl text-black">
         <fbt desc="Greeting">Welcome</fbt>
       </h1>
       {greeting}
