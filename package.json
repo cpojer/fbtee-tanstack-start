@@ -8,29 +8,29 @@
     "build": "vite build && tsc --noEmit",
     "start": "node .output/server/index.mjs",
     "fbtee:collect": "fbtee collect --manifest < .src_manifest.json > source_strings.json",
-    "fbtee:manifest": "fbtee manifest --src src",
-    "fbtee:translate": "fbtee translate --source-strings source_strings.json --translations translations/*.json --jenkins --output-dir src/translations/"
+    "fbtee:translate": "fbtee translate --source-strings source_strings.json --translations translations/*.json --jenkins --output-dir src/translations/",
+    "fbtee": "pnpm fbtee:collect && pnpm fbtee:translate"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.124.0",
-    "@tanstack/react-router-devtools": "^1.124.0",
-    "@tanstack/react-start": "^1.124.1",
-    "fbtee": "^1.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwind-merge": "^2.6.0",
-    "zod": "^3.24.2"
+    "@tanstack/react-router": "^1.127.0",
+    "@tanstack/react-router-devtools": "^1.127.0",
+    "@tanstack/react-start": "^1.127.0",
+    "fbtee": "^1.2.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.1",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
-    "@nkzw/babel-preset-fbtee": "^1.0.0",
-    "@types/node": "^22.5.4",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2",
-    "vite": "^6.3.5",
+    "@nkzw/babel-preset-fbtee": "^1.2.7",
+    "@types/node": "^24.0.13",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4",
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
